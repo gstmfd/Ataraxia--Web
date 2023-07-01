@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak - AtaraxiaWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Kontak Kami</h1>
+    <div class="contact-method">
+      <h2>Telegram</h2>
+      <p>Kamu dapat menghubungi kami melalui Telegram:</p>
+      <a href="https://t.me/namapengguna" target="_blank" rel="noopener noreferrer">
+      <img src="telegram-icon.png" alt="Telegram" class="contact-icon">       
+      </a>
+    </div>
+
+    <div class="contact-method">
+      <h2>Email</h2>
+      <p>Kamu juga dapat mengirim email kepada kami:</p>
+      <a href="mailto:info@ataraxiaweb.com">
+      <img src="email-icon.png" alt="Email" class="contact-icon">
+      </a>
+    </div>
+  </div>
+
+  <!-- Tambahkan CSS di bawah ini jika perlu -->
+  <style>
+    body {
+  background: linear-gradient(45deg, #FF512F, #DD2476);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+    .contact-container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 0;
+    }
+
+    .contact-method {
+      margin-bottom: 30px;
+    }
+
+    .contact-method h2 {
+      color: #333;
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .contact-method p {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .contact-method a {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .contact-method a:hover {
+      background-color: #555;
+    }
+
+  </style>
+</body>
+</html>
